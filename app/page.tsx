@@ -1,3 +1,10 @@
+import { UploadForm } from './form'
+
 export default function Home() {
-  return <main>Converter</main>;
+  return (
+    <main>
+      <h1>Converter</h1>
+      <UploadForm />
+    </main>
+  )
 }
